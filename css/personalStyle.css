@@ -1,3 +1,10 @@
-    #mainImage {}
+    #mainImage {
+        border-radius: 25px;
+        max-width: 100%;
+    }
     
-    #mainText {}
+    #inBanner {}
+    
+    #mainText {
+        display: inline-block;
+    }
