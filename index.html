@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/personalStyle.css">
 
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/npm.js"></script>
 </head>
 
 <body>
@@ -29,9 +31,9 @@
                     <!--logo topleft-->
 
                     <a class="navbar-brand logo_h" href="index.html">
-                        <img src="img/logo.png" alt>
+                        <img src="img/blackLogo.png" alt>
                     </a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -39,16 +41,16 @@
                     <div class="navbar-collapse offset colapse" id="navbarSupportedContent" style>
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#home-sect">Home</a>
+                                <a class="nav-link" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about-sect">About me</a>
+                                <a class="nav-link" href="#about">About me</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#projects-sect">Projects</a>
+                                <a class="nav-link" href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact-sect">Contacts</a>
+                                <a class="nav-link" href="#contact">Contacts</a>
                             </li>
                         </ul>
                     </div>
@@ -56,6 +58,30 @@
             </nav>
         </div>
     </header>
+    <!--home-->
+    <section id="home" class="home_banner_area">
+        <div class="container box_1620">
+            <div class="banner_inner d-flex align-items-center">
+                <div class="banner_content">
+                    <div id="mainImage" class="d-flex">
+                        <!--class="d-flex"-->
+                        <img src="img/mainpic3.png" alt>
+                    </div>
+                    <div id="mainText" class="media-body">
+                        <!--class="media-body"-->
+                        <div class="personal_text">
+                            <h5>Welcome to my site! My name is</h5>
+                            <h3>Patrick Yoon</h3>
+                            <p>I'm from Chicago and I study computer science at Northeastern University</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
 </body>
 
 </html>
