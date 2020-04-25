@@ -3228,10 +3228,10 @@ h6 {
 
 .main_btn {
     display: inline-block;
-    background-image: linear-gradient(to right, #766dff 0%, #86e8ff 48%, #766dff 100%);
+    background-image: radial-gradient(circle, #fff 0%, #999999 100%);
     background-size: 200% auto;
     padding: 0px 40px;
-    color: #fff;
+    color: #000;
     font-family: "Roboto", sans-serif;
     font-size: 13px;
     font-weight: 500;
@@ -3246,8 +3246,8 @@ h6 {
 }
 
 .main_btn:hover {
-    background-position: right center;
-    color: #fff;
+    background-position: center center;
+    color: #000;
 }
 
 .main_btn2 {
