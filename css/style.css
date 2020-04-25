@@ -151,7 +151,7 @@ button:focus {
 ============================================================================================ */
 
 .main_title {
-    text-align: center;
+    text-align: left;
     max-width: 670px;
     margin: 0px auto 75px;
 }
@@ -331,7 +331,7 @@ body {
     top: -70px;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #000;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
